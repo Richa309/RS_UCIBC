@@ -1,0 +1,264 @@
+
+/*Navbar and body styling common to all pages*/
+
+.navbar { background: white;
+width :100%;
+left: 0;
+top: 0;
+padding: 10px;
+margin: 0 0 0 0;
+}
+
+.navbar-brand { background-color: aqua;
+    color: white;
+    margin: 0;
+    
+}
+.dropdown { margin: 0;
+color: gray;
+}
+
+.comparisons {margin: 0;
+    color: gray;
+}
+
+.data {margin: 0;
+    color: gray;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: gray;
+    background: #DADADA;
+  }
+
+ 
+  
+  /* Header for landing page , paragraph for all pages */
+
+  h1 {font-size: 28px;
+    color: #000;
+    text-align: left;
+    top: 20px
+  }
+  
+  h2 {font-size: 28px;
+    color: black;
+    text-align: Left;
+    top: 20px;
+    margin: 0;
+    padding :0;
+
+  }
+  
+  p {text-align: justify;
+    overflow-wrap: normal;
+    word-wrap: normal;
+     
+  }
+  
+  p2 {position: float
+  }
+     
+
+  
+  /* styling for landing page */
+  .container1 {
+    width: 50%;
+    margin-left: 20 px;
+    backface-visibility: white;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+  }
+
+  section {
+    margin: 0 1.5% 24px 1.5%;
+    width: 70%;
+    background: white;
+  }
+
+  .container2 {
+    width: 45%;
+    margin-left : 20px;
+    backface-visibility: white;
+    margin-top: 20px ;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  aside {
+    float: center;
+    margin-left: auto;
+    width: 50%;
+    background: white;
+    position: absolute;
+    left : 550px;
+    top: 95px;
+    margin: 0 1.5% 24px 1.5%; 
+  }
+ 
+ 
+  #figure {
+    position: relative
+  }
+  
+  
+  #main-project {
+    width: 100%;
+  }
+  
+
+  .project-image {
+    display: block;
+    background-color: #cccccc;
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    overflow: auto
+    
+    
+  }
+
+ 
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+ /* comparison page */
+ 
+ .container3 {
+  width: 100%;
+  height: 100%;
+  margin-left: 20 px;
+  backface-visibility: white;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+   
+}
+
+.section2 {
+  float: center ;
+  margin: 0 1.5% 24px 1.5%;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+#figure1 {
+  position: relative;
+}
+
+.project-image2{
+  width: 400px;
+  height: 400px;
+  margin-right: 50px;
+  overflow: auto;
+  margin-left:80px;
+}
+
+
+/* styling for visulaitzation page */
+
+.container4 {
+  width: 600 px;
+  height: 800 px;
+  background: white;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding : 40px;
+  border : 40px;
+  position: absolute; 
+  top: 50px; 
+  left: 20px;
+  float: right;
+   
+}
+
+.project-image3{
+  width: 400px;
+  height: 400px;
+  margin-right: 50px;
+  overflow: auto;
+  margin-left:80px;
+  
+}
+/* footer for all pages */  
+   
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+
+ .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  .dropdown {
+    visibility: visible;
+  }
+  .navbar
+  {
+    visibility: visible;
+  }
+
+  body {
+    visibility: visible
+  }
+
+  .container1 {
+    visibility: visible
+  }
+
+  .container2 {
+    visibility: visible
+  }
+
+  .container3 {
+    visibility: visible
+  }
+
+
+  .container4 {
+    visibility: visible
+  }
+
+.table 
+{
+  visibility: visible
+}
