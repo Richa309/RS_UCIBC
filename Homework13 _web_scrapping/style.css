@@ -1,0 +1,39 @@
+ 
+.banner{
+    background-color: gainsboro;
+
+}
+
+h1.banner_txt {
+    text-align: center;
+    color:black;
+}
+
+#scrape_btn {
+    text-align: center;
+}
+
+#first_text {
+  background-color:lightblue;
+}
+
+.container-fluid {
+    background: whitesmoke;
+    outline: .01px double black;
+    padding: 5%;
+}
+
+.data-box {
+    background: whitesmoke;
+    outline: .1px double black;
+    padding: 5%;
+}
+
+figcaption.hemisphere_caption{
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
