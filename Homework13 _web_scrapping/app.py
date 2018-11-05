@@ -1,7 +1,7 @@
 from flask import Flask, render_template, jsonify, redirect
 import pymongo
 from IPython import get_ipython
-
+import scrape_mars
 
 
 app = Flask(__name__)
@@ -10,13 +10,10 @@ app = Flask(__name__)
 
  
 # setup mongo connection
-conn = "mongodb://localhost:27017"
-client = pymongo.MongoClient(conn)
+app.config["MONGO_URI"] = "mongodb://localhost:27017/mars_app"
+mongo = PyMongo(app)
 
-
-# connect to mongo db and collection
-db = client.mars_data_DB
-mars_collection = db.mars_collection
+ 
 
 @app.route("/")
 def index():
